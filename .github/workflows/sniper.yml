@@ -29,12 +29,20 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: python sniper.py
 
-      - name: Commit updated seen.txt
+      - name: Commit database updates separately
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          touch seen.txt
-          git add seen.txt
-          # Only commit if seen.txt was updated with new links
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update seen links database"
+          
+          # Commit AI deals updates if any
+          touch seen_ai_deals.txt
+          git add seen_ai_deals.txt
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update seen AI deals database"
+          
+          # Commit scholarships updates if any
+          touch seen_scholarships.txt
+          git add seen_scholarships.txt
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update seen scholarships database"
+          
+          # Push both commits
           git push
