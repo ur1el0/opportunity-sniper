@@ -10,14 +10,14 @@ warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 WEBHOOK_URL = os.getenv('DISCORD_WEBHOOK')
 
 # Load links we've already been notified about
-def load_seen():
-    if not os.path.exists('seen.txt'):
+def load_seen(filename):
+    if not os.path.exists(filename):
         return []
-    with open('seen.txt', 'r') as f:
+    with open(filename, 'r') as f:
         return f.read().splitlines()
 
-def save_seen(url):
-    with open('seen.txt', 'a') as f:
+def save_seen(filename, url):
+    with open(filename, 'a') as f:
         f.write(url + '\n')
 
 def send_discord_alert(title, url, category):
@@ -30,7 +30,11 @@ def send_discord_alert(title, url, category):
     except Exception as e:
         print("Failed to send Discord alert:", e)
 
-seen_links = load_seen()
+ai_seen_file = 'seen_ai_deals.txt'
+scholarship_seen_file = 'seen_scholarships.txt'
+
+seen_ai_links = load_seen(ai_seen_file)
+seen_scholarship_links = load_seen(scholarship_seen_file)
 headers = {'User-Agent': 'script:opportunity-sniper:v1.0.0 (by /u/dokja)'}
 
 # ---------------------------------------------------------
@@ -48,9 +52,9 @@ try:
             link_tag = entry.find('link')
             post_url = link_tag.get('href') if link_tag else None
             
-            if post_url and post_url not in seen_links:
+            if post_url and post_url not in seen_ai_links:
                 send_discord_alert(title, post_url, "AI Deal")
-                save_seen(post_url)
+                save_seen(ai_seen_file, post_url)
     else:
         print(f"Could not fetch AI deals (Reddit returned status {response.status_code})")
 except Exception as e:
@@ -74,8 +78,8 @@ try:
         
         # Basic keyword filter
         if "2026" in title or "application" in title.lower():
-            if link not in seen_links:
+            if link not in seen_scholarship_links:
                 send_discord_alert(title, link, "PH Scholarship")
-                save_seen(link)
+                save_seen(scholarship_seen_file, link)
 except Exception as e:
     print("Could not fetch scholarships:", e)
