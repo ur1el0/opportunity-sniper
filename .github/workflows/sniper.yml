@@ -2,8 +2,8 @@ name: Opportunity Sniper
 
 on:
   schedule:
-    # Runs every 6 hours
-    - cron: '0 */6 * * *'
+    # Runs every 3 hours (8 times a day)
+    - cron: '0 */3 * * *'
   workflow_dispatch:
 
 jobs:
