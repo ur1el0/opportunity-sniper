@@ -36,3 +36,7 @@ https://www.reddit.com/r/ArtificialInteligence/comments/1w3fi5h/south_korea_is_g
 https://www.reddit.com/r/ArtificialInteligence/comments/1w3e2uf/how_do_you_use_ai_when_life_gets_personal_short/
 https://www.reddit.com/r/ArtificialInteligence/comments/1w38qbo/how_on_earth_did_people_get_anything_done_before/
 https://www.reddit.com/r/ArtificialInteligence/comments/1w3uafg/best_on_computer_model/
+https://www.reddit.com/r/ArtificialInteligence/comments/1w454e6/most_llm_features_ship_without_the_engineering/
+https://www.reddit.com/r/ArtificialInteligence/comments/1w454dk/making_music_videos_with_ai_is_still_kinda_rough/
+https://www.reddit.com/r/ArtificialInteligence/comments/1w3x8a4/im_training_my_own_1b_local_model_with_an_rtx/
+https://www.reddit.com/r/ArtificialInteligence/comments/1w3wh5u/cracking_ml_system_design_interviews_design_a/
