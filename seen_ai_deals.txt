@@ -93,3 +93,5 @@ https://www.reddit.com/r/ArtificialInteligence/comments/1wdt9w1/llms_are_the_cul
 https://www.reddit.com/r/ArtificialInteligence/comments/1wdzb0m/the_anti_ai_backlash_has_completely_failed_gpt_6/
 https://www.reddit.com/r/ArtificialInteligence/comments/1wdw6e9/the_global_race_for_cheap_power_from_subsidized/
 https://www.reddit.com/r/ArtificialInteligence/comments/1wdw4ro/ai_should_provide_some_extra_tokens_for_simple/
+https://www.reddit.com/r/ArtificialInteligence/comments/1we33l1/website_for_easily_running_local_models_in_browser/
+https://www.reddit.com/r/ArtificialInteligence/comments/1we0c61/opensource_coding_models_are_getting_really_good/
