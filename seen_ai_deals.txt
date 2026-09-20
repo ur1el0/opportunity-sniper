@@ -143,3 +143,4 @@ https://www.reddit.com/r/ArtificialInteligence/comments/1wkjlxz/what_a_lifeexpec
 https://www.reddit.com/r/ArtificialInteligence/comments/1wkif9k/every_scenario_i_can_think_of_in_which_we_achieve/
 https://www.reddit.com/r/ArtificialInteligence/comments/1wlai5p/emulate_jev_ai_with_any_llm/
 https://www.reddit.com/r/ArtificialInteligence/comments/1wla3yi/been_experimenting_with_jev_interesting_approach/
+https://www.reddit.com/r/ArtificialInteligence/comments/1wleuuz/dethrone_a_poc_game_testing_jev_from_typesafeai/
