@@ -145,3 +145,4 @@ https://www.reddit.com/r/ArtificialInteligence/comments/1wlai5p/emulate_jev_ai_w
 https://www.reddit.com/r/ArtificialInteligence/comments/1wla3yi/been_experimenting_with_jev_interesting_approach/
 https://www.reddit.com/r/ArtificialInteligence/comments/1wleuuz/dethrone_a_poc_game_testing_jev_from_typesafeai/
 https://www.reddit.com/r/ArtificialInteligence/comments/1wlrwei/hemmingway1_a_27b_open_weights_model_for_creative/
+https://www.reddit.com/r/ArtificialInteligence/comments/1wlztph/muse_is_the_cleanest_implementation_of_an_ai_agent/
