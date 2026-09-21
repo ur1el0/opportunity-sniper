@@ -146,3 +146,4 @@ https://www.reddit.com/r/ArtificialInteligence/comments/1wla3yi/been_experimenti
 https://www.reddit.com/r/ArtificialInteligence/comments/1wleuuz/dethrone_a_poc_game_testing_jev_from_typesafeai/
 https://www.reddit.com/r/ArtificialInteligence/comments/1wlrwei/hemmingway1_a_27b_open_weights_model_for_creative/
 https://www.reddit.com/r/ArtificialInteligence/comments/1wlztph/muse_is_the_cleanest_implementation_of_an_ai_agent/
+https://www.reddit.com/r/ArtificialInteligence/comments/1wm873q/typesafes_jev_cannot_emit_an_invalid_output_but/
