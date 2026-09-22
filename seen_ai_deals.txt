@@ -149,3 +149,4 @@ https://www.reddit.com/r/ArtificialInteligence/comments/1wlztph/muse_is_the_clea
 https://www.reddit.com/r/ArtificialInteligence/comments/1wm873q/typesafes_jev_cannot_emit_an_invalid_output_but/
 https://www.reddit.com/r/ArtificialInteligence/comments/1wmo6v2/built_a_free_opensource_linkedin_slop_mop_based/
 https://www.reddit.com/r/ArtificialInteligence/comments/1wmrwae/llms_think_talk_this_model_just_decides_jev/
+https://www.reddit.com/r/ArtificialInteligence/comments/1wmxq4r/muse_free_tokens/
