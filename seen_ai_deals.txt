@@ -198,3 +198,5 @@ https://www.reddit.com/r/ArtificialInteligence/comments/1wuhymk/a_reddit_agent_n
 https://www.reddit.com/r/ArtificialInteligence/comments/1wur5v1/mercury_released_mercury_decide_i_benchmarked_it/
 https://www.reddit.com/r/ArtificialInteligence/comments/1wuw179/orgtree_v3_its_fast/
 https://www.reddit.com/r/ArtificialInteligence/comments/1wvh005/in_5_years_i_think_well_be_generating_our_own/
+https://www.reddit.com/r/ArtificialInteligence/comments/1wvq2if/rowbot_50_is_available_a_new_react_interface/
+https://www.reddit.com/r/ArtificialInteligence/comments/1wvpa0y/opinion_the_discussion_about_llms_feeling_pain_is/
